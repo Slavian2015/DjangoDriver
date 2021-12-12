@@ -1,0 +1,5 @@
+sudo chmod -R 0777 backend/
+pip install django
+
+django-admin startproject backend .
+django-admin startapp opinion_ate
