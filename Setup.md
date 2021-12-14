@@ -1,8 +1,7 @@
 1. Clone the project:
   
    ```
-   cd "$(CURRENT_DIRECTORY)"
-   py.exe "$(FILE_NAME)"
+   git clone https://github.com/Slavian2015/DjangoDriver.git
    ```
 
   
