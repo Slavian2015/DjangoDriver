@@ -1,10 +1,28 @@
 sudo chmod -R 0777 backend/
 
 pip install django
+pip install django-filter
+pip install djangorestframework
+pip install djangorestframework-jsonapi
+pip install drf-spectacular
+
+
 django-admin startproject backend .
 django-admin startapp driver_api
 
 python manage.py makemigrations driver_api
-
 python manage.py migrate
 python manage.py loaddata drivers
+
+python manage.py runserver
+
+
+"""
+    Add rest_framework to INSTALLED_APPS
+    Create a app and model
+    Serialization
+    Creating a viewset
+    Define URLs of API
+    Run server and check API
+
+"""
